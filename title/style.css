@@ -1,18 +1,21 @@
 .title {
-	overflow: hidden;
+	position: absolute;
+	width: 100%;
+	margin: 0 auto;
     font-size: 3rem;
+	text-align: center;
 }
 .title:before,
 .title:after {
+	position: relative;
 	content: '';
 	display: inline-block;
 	vertical-align: middle;
 	box-sizing: border-box;
 	width: 100%;
-	height: 10px;
+	height: 12px;
 	background-color: black;
 	border: solid #FFF;
-	border-width: 0 10px;
 }
 
 .title:before {
