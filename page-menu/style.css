@@ -1,0 +1,64 @@
+body {
+    background: linear-gradient(rgb(56, 33, 6), rgb(182, 151, 13));
+    width: 100%;
+    height: 900px;
+    display: flex;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.img-burger{
+    width: 400px;
+    height: 600px;
+    background: url(https://www.garrys.com.ua/6btitle/ua-dabl-burger.jpg);
+    background-size: cover;
+    display: inline-block;
+    padding-top: 20px;
+}
+
+.discount{
+    width: 400px;
+    height: 250px;
+    background-color: black;
+    color: white;
+    text-align: center; 
+    position: absolute;
+    margin-top: 250px;
+    margin-left: -.5%;
+ } 
+    
+
+.discount h1{
+    font-size: 3rem;
+} 
+
+.discount span {
+    color: yellow;
+}
+
+.menu {
+    width: 700px;
+    height: 600px;
+    background-color: white;
+    text-align: center;
+    padding-top: 20px;
+    display: inline-block;
+}
+
+.menu p span {
+    color: grey;
+}
+
+.menu p {
+    padding: 30px;
+    display: inline-block;
+    font-size: 1.2rem;
+}
+
+.menu p:after{
+  content: '';
+  background-color: black;
+  height: 1px;
+  display: block;
+  width: 100px;
+}

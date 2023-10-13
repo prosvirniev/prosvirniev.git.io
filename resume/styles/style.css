@@ -1,0 +1,148 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Helvetica, serif;
+}
+
+img {
+	display: block;
+	width: 100%;
+}
+
+.page-wrapper {
+	display: flex;
+	max-width: 1200px;
+	margin: auto;
+}
+
+.l-side {
+	width: 300px;
+	padding-top: 25px;
+	background-color: #1960c4;
+	color: white;
+}
+
+.r-side {
+	width: calc(100% - 300px);
+	background-color: rgb(236, 240, 245);
+	padding-top: 25px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.photo {
+	width: 150px;
+	height: 150px;
+	margin: 0 auto;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.personal-info-block {
+	padding-left: 20px;
+	padding-top: 30px;
+}
+
+
+.personal-info-block__title {
+	padding-bottom: 15px;
+	border-bottom: 2px solid #fff;
+	font-size: 22px;
+}
+
+.personal-info-block__content {
+	padding-top: 25px;
+}
+
+.content-item:not(:last-child) {
+	padding-bottom: 15px;
+}
+
+.content-item span {
+	display: block;
+}
+
+.content-item span:first-child,
+.f-bold {
+	font-weight: bold;
+}
+
+.d-flex {
+	display: flex;
+}
+
+.content-item.d-flex {
+	justify-content: space-between;
+	padding-right: 20px;
+}
+
+.info-block-head {
+	padding-bottom: 15px;
+	margin-bottom: 10px;
+	border-bottom: 2px solid rgba(146, 143, 143, 0.932);
+	font-size: 33px;
+}
+
+.info-block-part1 {
+	padding-bottom: 5px;
+	padding-top: 15px;
+	border-bottom: 2px solid rgba(146, 143, 143, 0.932);
+	font-size: 22px;
+}
+
+.info-block-part1__content {
+	padding-top: 10px;
+}
+
+.content-pt1:not(:last-child) {
+	padding-bottom: 5px;
+}
+
+.content-pt1 span {
+	display: block;
+}
+
+.content-pt1 span:first-child,
+.f-bold {
+	font-weight: bold;
+}
+
+.d-flex {
+	display: flex;
+}
+
+.content-pt1.d-flex {
+	justify-content: space-between;
+	padding-right: 20px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+.content-pt1 li {
+	list-style: none;
+}
+
+.content-pt1 span:last-child {
+	font-size: 13px;
+}
+
+.content-pt2 span:first-child {
+	font-style: italic;
+}
+
+.content-pt2 {
+	padding-bottom: 15px;
+}
+
+.content-pt2 p {
+	font-size: 14px;
+}
+
+.content-pt2 span {
+	display: block;
+}
+
