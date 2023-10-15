@@ -1,0 +1,35 @@
+.resume {
+    border: 1px solid blueviolet;
+    padding: 10px;
+    background-color: #ffff00;
+    display: inline-block;
+}
+
+.chess {
+    border: 1px solid blueviolet;
+    padding: 10px;
+    background-color: #ffff00;
+    display: inline-block;
+}
+
+.title {
+    border: 1px solid blueviolet;
+    padding: 10px;
+    background-color: #ffff00;
+    display: inline-block;
+}
+
+.box-model {
+    border: 1px solid blueviolet;
+    padding: 10px;
+    background-color: #ffff00;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
