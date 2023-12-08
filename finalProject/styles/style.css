@@ -1,0 +1,448 @@
+.header {
+    width: 100%;
+    height: 701px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header__video {
+  width: 100vw;
+  height: 701px;
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.nav {
+    width: 100%;
+    position: relative;
+    z-index: 99;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav a {
+    text-decoration: none;
+    font-family: var(--main-font);
+    font-size: .75rem;
+    color: var(--color-white);
+}
+
+.menu__container {
+    width: 27px;
+    /* height: 10px; */
+}
+
+.menu__container img {
+    width: 100%;
+    height: 100%;
+}
+
+.nav__sub{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.nav_ a {
+    text-decoration: none;
+}
+
+.nav__link__basket {
+    display: flex;
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #384353;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.title_head {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    gap: 48px;
+    padding: 240px 40px;
+}
+
+h4 {
+    text-align: center;
+    color: var(--White, #FCFDFD);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px; 
+    letter-spacing: -0.72px;
+}
+
+.btn {
+    display: flex;
+    width: max-content;
+    padding: 8px 36px;
+    align-items: center;
+    gap: 8px;
+    background-color: #FCFDFD;
+    border-style: none;
+    border-radius: 9px;
+}
+
+.btn a{
+    text-decoration: none;
+    color: black;
+}
+
+.about {
+    width: 100%;
+    height: 787px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid grey;
+    
+}
+
+.container_about {
+    position: relative;
+    width: 100vw;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 36px;
+    padding: 200px 40px;
+}
+
+.title_about {
+    color: var(--Stormy, #323334);
+    text-align: center;
+    font-family: Reckless Neue;
+    width: 70vw;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px; 
+    letter-spacing: -0.72px;
+}
+
+.information_about {
+    color: var(--Stormy, #323334);
+    text-align: center;
+    font-family: Neue Montreal;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    width: 90vw;
+    line-height: 19px;
+}
+
+.btn_about {
+    border: 1px solid grey;
+    border-radius: 9px;
+    padding: 8px 36px;
+}
+
+.btn_about a{
+    text-decoration: none;
+    color: black;
+}
+
+.img_about {
+    position: relative;
+}
+
+.image_about_1 {
+    position: absolute;
+    width: 147px;
+    left: -150px;
+    padding: 41px 0;
+}
+
+.image_about_2 {
+    position: absolute;
+    width: 76px;
+    right: -170px;
+    padding: 124px 0;
+}
+
+.image_about_3 {
+    position: absolute;
+    width: 88px;
+    right: -240px;
+    padding-top: 215px;
+}
+
+.image_about_4 {
+    position: absolute;
+    width: 102px;
+    left: -237px;
+    padding-top: 235px;
+}
+
+.image_about_5 {
+    position: absolute;
+    width: 182px;
+    left: -307px;
+    padding-top: 553px;
+}
+
+.image_about_6 {
+    position: absolute;
+    width: 156px;
+    right: -212px;
+    padding-top: 620px;
+}
+
+.product {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product .title {
+    color: var(--Stormy, #323334);
+    font-size: 2rem;
+    padding: 24px 0;
+    text-align: center;
+
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px solid grey;
+}
+
+.card img {
+    padding-bottom: 8px;
+    width: 100%;
+}
+
+.information_card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+}
+
+.card {
+    width: 50%;
+    padding: 8px;
+    border-bottom: 1px solid grey;
+    justify-content: center;
+}
+
+.card:nth-child(odd) {
+    border-right: 1px solid grey;
+}
+
+.products-buy-all {
+    padding: 24px 0;
+}
+
+.btn-all {
+    padding: 0 36px;
+    border: 1px solid white;
+}
+
+.btn-all a{
+    text-decoration: none;
+    color: black;
+}
+
+.review_product {
+    background-color: var(--Opal, #384353);
+    color: white;
+}
+
+.review_container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.review_product img {
+    padding: 16px;
+}
+
+.review_product h1 {
+    padding: 20px;
+}
+
+.review_product p {
+    padding: 20px;
+}
+
+
+.review_product a {
+    padding-left: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.btn_review {
+    padding-bottom: 20px;
+}
+
+.room {
+    position: relative;
+    width: 100%;
+    height: 664px;
+    background-image: url(./../images/section_down.png);
+    background-position: right 50% bottom 45%;
+    background-size: cover;
+}
+
+.room_card {
+    display: none;
+    position: absolute;
+    max-width: 291px;
+    padding: 20px;
+    background-color: white;
+}
+
+.room_information_card {
+    display: flex;
+    font-size: 0.75rem;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-family: var(--main-font);
+    color: var(--main-font-color);
+}
+
+.room_card-1 {
+    right: 76px;
+    top: 543px;
+}
+
+.room_card-2 {
+    left: 106px;
+    top: 125px;
+}
+
+.lookbook {
+    background-color: var(--Opal, #384353);
+    color: #FCFDFD;
+    text-align: center;
+}
+
+.lookbook_info {
+    padding: 16px;
+}
+
+.lookbook p {
+    padding-top: 56px;
+    padding-bottom: 40px;
+}
+
+.lookbook_items {
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid white;
+}
+
+.lookbook_items span {
+    margin: 10px 0;
+    font-size: .75rem;
+}
+
+.lookbook_product {
+    margin: 20px;
+}
+
+.lookbook_down_container {
+    background-color: #E0E0E0;
+    padding: 20px;
+}
+
+.lookbook_card img {
+    background-position: cover;
+}
+
+
+@media (min-width: 376px) {
+    .title_about {
+        width: 50vw;
+    }
+
+    .information_about {
+        width: 40vw;
+    }
+
+    .image_about_1 {
+        width: 187px;
+        left: -76px;
+    }
+    
+    .image_about_2 {
+        width: 104px;
+        right: -403px;
+    }
+    
+    .image_about_3 {
+        width: 107px;
+        right: -545px;
+        padding-top: 323px;
+    }
+    
+    .image_about_4 {
+        width: 141px;
+        left: -464px;
+    }
+    
+    .image_about_5 {
+        width: 232px;
+        left: -307px;
+        padding-top: 553px;
+    }
+    
+    .image_about_6 {
+        width: 186px;
+        right: -252px;
+    }
+
+    .review_container {
+        flex-direction: row;
+    }
+
+    .review_information {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 50vw;
+    }
+
+    .products {
+        width: 100%;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+
+    .card:nth-child(n) {
+        border-right: none;
+    }
+
+    .room {
+        height: 1081px;
+    }
+
+    .room_card{
+        display: block;
+    } 
+}
